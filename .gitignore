@@ -1,0 +1,38 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Foto laporan lokal / bukti pribadi tidak diunggah ke GitHub
+/storage/app/public/roadwatch/
+
+
+# File environment dan rahasia
+.env.*
+!.env.example
+
+# File sementara Laravel
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/public/storage
+
+# Database lokal
+/database/*.sqlite
+/database/*.sqlite-*
+
+# File hasil upload lokal
+/storage/app/public/roadwatch/
